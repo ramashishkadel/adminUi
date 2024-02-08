@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  font-size: 1.2rem;
+  overflow-y: hidden;
+}

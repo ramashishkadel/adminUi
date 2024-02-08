@@ -1,0 +1,154 @@
+.table_cont {
+  width: 100%;
+}
+
+.search_bar {
+  position: relative;
+  width: 100%;
+}
+
+.search_bar input {
+  display: block;
+  width: 50%; /* Increased the input width */
+  margin: 1rem auto;
+  padding: 0.4rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+}
+
+.search-icon {
+  position: absolute;
+  right: 26%;
+  top: 50%; /* Centered vertically */
+  transform: translateY(-50%);
+  padding: 0.1rem 0.3rem;
+  border-radius: 8px;
+}
+
+.search-icon:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+}
+
+th:nth-child(1) {
+  width: 5%;
+}
+
+th:nth-child(2) {
+  width: 15%;
+}
+
+th:nth-child(3) {
+  width: 20%;
+}
+
+th:nth-child(4) {
+  width: 15%;
+}
+
+th:nth-child(5) {
+  width: 7%;
+}
+
+@media (max-width: 1290px) {
+  th:nth-child(5) {
+    width: 10%;
+  }
+
+  .search-icon {
+    /* right: 21rem; */
+  }
+}
+
+@media (max-width: 1110px) {
+  th:nth-child(5) {
+    width: 15%;
+  }
+}
+
+@media (max-width: 960px) {
+  th:nth-child(2) {
+    width: 20%;
+  }
+}
+
+@media (max-width: 1110px) {
+  th:nth-child(5) {
+    width: 20%;
+  }
+}
+
+.pagination_controls__cont {
+  position: absolute;
+  bottom: 2rem;
+  right: 3rem;
+}
+
+@media (max-width: 840px) {
+  .pagination_controls__cont {
+    bottom: 1rem;
+  }
+}
+
+.pagination_controls__cont button,
+.delete_selected__cont button {
+  background: black;
+  color: #dad7dc;
+  padding: 0.4rem 0.6rem;
+  margin-left: 0.5rem;
+  border-radius: 8px;
+}
+
+.pagination_controls__cont span {
+  margin-left: 0.5rem;
+}
+
+.pagination_controls__cont button:hover,
+.delete_selected__cont button:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.delete_selected__cont {
+  position: absolute;
+  top: 1rem;
+  right: 3rem;
+}
+
+.pages_button {
+  background: rgba(0, 0, 0, 0.1) !important;
+  color: grey !important;
+  border: none;
+}
+
+.pages_button:hover {
+  color: black !important;
+}
+
+.pages_button__active {
+  background: black !important;
+  color: white !important;
+}
+
+.pages_button__active:hover {
+  color: white !important;
+}

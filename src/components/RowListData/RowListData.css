@@ -1,0 +1,26 @@
+tr {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+tr:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+td input {
+  font-size: 1rem;
+  padding: 0.2rem 0.4rem;
+}
+
+.action_cont button {
+  background: black;
+  color: #dad7dc;
+  padding: 0.3rem 0.6rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+}
+
+.action_cont button:hover {
+  color: white;
+  cursor: pointer;
+}
